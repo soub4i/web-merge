@@ -1,0 +1,25 @@
+{
+  "name": "web-merge",
+  "version": "1.0.0",
+  "description": "Declarative custom element for micro-frontend architecture",
+  "main": "lib/index.js",
+  "author": "Abderrahim SOUBAI-ELIDRISI",
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+    "web component",
+    "fragment",
+    "micro-frontend"
+  ],
+  "homepage": "https://github.com/AbderrahimSoubaiElidrissi/web-merge",
+  "bugs": {
+    "url": "https://github.com/AbderrahimSoubaiElidrissi/web-merge/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AbderrahimSoubaiElidrissi/web-merge.git"
+  },
+  "dependencies": {
+    "web-merge": "/home/abderrahim/Desktop/projects/oss/fragment"
+  }
+}
