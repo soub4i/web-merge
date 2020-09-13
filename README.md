@@ -1,6 +1,6 @@
 # Web Merge
 
-Declarative client-side web fragment merger using web component APIs :
+Declarative client-side web fragments (apps/files) merger using web component APIs
 
 ## NOTE
 > EXPERIMENTAL DO NOT USE IN PRODUCTION
@@ -12,17 +12,29 @@ Declarative client-side web fragment merger using web component APIs :
 
 ## Installation
 
-Install using npm:
+## 1. via npm
 
 ```shell
 $ npm install @soubai/web-merge
-```
+# or
 
-Install using yarn:
-
-```shell
 $ yarn add @soubai/web-merge
 ```
+
+Then import it in your script
+
+
+```js
+import '@soubai/web-merge'
+```
+
+## 2. via unpkg
+
+```html
+<script type="module" src="unpkg.com/@soubai/web-merge"></script>
+```
+
+
 
 ## Usage
 
