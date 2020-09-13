@@ -5,18 +5,23 @@ Declarative client-side web fragment merger using web component APIs :
 ## NOTE
 > EXPERIMENTAL DO NOT USE IN PRODUCTION
 
+
+![](preview.png)
+
+
+
 ## Installation
 
 Install using npm:
 
 ```shell
-$ npm install web-merge
+$ npm install @soubai/web-merge
 ```
 
-Install using bower:
+Install using yarn:
 
 ```shell
-$ bower install web-merge
+$ yarn add @soubai/web-merge
 ```
 
 ## Usage

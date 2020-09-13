@@ -1,5 +1,5 @@
 {
-  "name": "web-merge",
+  "name": "@soubai/web-merge",
   "version": "1.0.0",
   "description": "Declarative custom element for micro-frontend architecture",
   "main": "lib/index.js",
