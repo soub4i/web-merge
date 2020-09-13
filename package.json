@@ -1,6 +1,6 @@
 {
   "name": "@soubai/web-merge",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Declarative custom element for micro-frontend architecture",
   "main": "lib/index.js",
   "author": "Abderrahim SOUBAI-ELIDRISI",
@@ -18,8 +18,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/AbderrahimSoubaiElidrissi/web-merge.git"
-  },
-  "dependencies": {
-    "web-merge": "/home/abderrahim/Desktop/projects/oss/fragment"
   }
 }
