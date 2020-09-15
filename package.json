@@ -1,6 +1,6 @@
 {
   "name": "@soubai/web-merge",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Declarative custom element for micro-frontend architecture",
   "main": "lib/index.js",
   "author": "Abderrahim SOUBAI-ELIDRISI",
