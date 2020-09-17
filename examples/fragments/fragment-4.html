@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .block {
+            margin: 25px;
+            border-style: dotted;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="block">
+        Fragment 4
+
+        <div class="counter">Counter <span class="value">0</span></div>
+        <button id="inc">+</button>
+        <button id="dec">-</button>
+
+
+    </div>
+
+
+    <script>
+        const { state } = parent;
+
+        state.init({ count: 0 })
+
+        const COUNT_CHANGE = "countChange";
+
+        state.on(COUNT_CHANGE, ({ count }) => {
+            document.querySelector("span.value").textContent = count;
+        });
+
+        document.getElementById("inc").addEventListener("click", function () {
+            state.dispatch(COUNT_CHANGE, ({ count }) => ({ count: count + 1 }));
+        });
+
+        document.getElementById("dec").addEventListener("click", function () {
+            state.dispatch(COUNT_CHANGE, ({ count }) => ({ count: count - 1 }));
+        });
+
+    </script>
+
+</body>
+
+</html>
