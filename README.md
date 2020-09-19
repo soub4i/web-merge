@@ -109,7 +109,7 @@ document.getElementById("dec").addEventListener("click", function () {
 ```
 
 
-![](preview-2.gif)
+![](preview--2.gif)
 
 ### State management
 
