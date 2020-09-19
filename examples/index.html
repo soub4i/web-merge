@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic </title>
+
+    <style>
+        web-merge {
+            margin: 15px
+        }
+
+        .container {
+            width: 300px;
+            margin: auto;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <h3>Basic usage with a local fragments</h3>
+        <web-merge lazy content="./fragments/fragment-1.html"></web-merge>
+        <web-merge content="./fragments/fragment-2.html"></web-merge>
+
+
+        <h3>Basic usage with a frontend app</h3>
+        <web-merge lazy content="http://localhost:4200"></web-merge>
+        <web-merge content="http://localhost:3000"></web-merge>
+
+        <h3>Basic usage with a State management</h3>
+        <web-merge content="./fragments/fragment-3.html"></web-merge>
+        <web-merge content="./fragments/fragment-4.html"></web-merge>
+
+
+        <h3>Basic usage with a Router</h3>
+        <web-merge-router base="/examples">
+            <web-merge route="/" content="./fragments/fragment-6.html"></web-merge>
+            <web-merge route="/about" content="./fragments/fragment-5.html"></web-merge>
+        </web-merge-router>
+    </div>
+
+    <script type="module" src="/lib/index.js"></script>
+
+
+</body>
+
+</html>
