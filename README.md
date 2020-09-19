@@ -111,7 +111,7 @@ document.getElementById("dec").addEventListener("click", function () {
 
 ![](preview--2.gif)
 
-### State management
+### Routing
 
 Web-merge includes a build-in pushState router that will helps you to load fragments/apps based on route.
 
