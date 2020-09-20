@@ -1,21 +1,25 @@
 # Web Merge
 
+![](assets/banner.png)
+
+
 Declarative client-side web fragments (apps/files) merger using web component APIs
 
 ## NOTE
 > EXPERIMENTAL DO NOT USE IN PRODUCTION
 
 
-![](preview.png)
+![](assets/preview.png)
 
 
 
 ## Installation
 
-## 1. via npm
+## 1. via npm (not working for now)
 
 ```shell
 $ npm install @soubai/web-merge
+
 # or
 
 $ yarn add @soubai/web-merge
@@ -28,17 +32,17 @@ Then import it in your script
 import '@soubai/web-merge'
 ```
 
-## 2. via unpkg
+## 2. via unpkg (Recommended)
 
 ```html
-<script type="module" src="unpkg.com/@soubai/web-merge"></script>
+<script type="module" src="//unpkg.com/@soubai/web-merge"></script>
 ```
 
 
 
 ## Usage
 
-use `<web-merge>` element to load you fragment into web page
+use `<web-merge>` custom element to load you fragment into web application
 
 ```html
 <web-merge content="./fragments/fragment-1.html"></web-merge>
@@ -71,7 +75,10 @@ use `<web-merge>` element to load you fragment into web page
 ```html
 <web-merge route='/cart' content="http://127.0.0.1:3000"></web-merge>
 ```
-### State management
+
+## Features
+
+### 1.State management
 
 Web-merge includes a build-in simple state management system based on event (not Event bus).
 
@@ -109,9 +116,9 @@ document.getElementById("dec").addEventListener("click", function () {
 ```
 
 
-![](preview--2.gif)
+![](assets/preview--2.gif)
 
-### Routing
+### 2.Routing
 
 Web-merge includes a build-in pushState router that will helps you to load fragments/apps based on route.
 
@@ -155,6 +162,27 @@ const { router } = parent;
 ```
 
 
-![](preview-3.gif)
+![](assets/preview-3.gif)
 
 
+
+## Development 
+
+After cloning package on your local machine :
+
+```shell
+$ npm install
+
+# start dev server to test examples locally
+
+$ yarn dev
+
+# Build 
+
+$ yarn build
+```
+
+## Changelog 
+
+
+[See the changelog here](CHANGELOG.md)
