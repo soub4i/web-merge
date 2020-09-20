@@ -166,7 +166,7 @@ const { router } = parent;
 
 
 
-### Development 
+## Development 
 
 After cloning package on your local machine :
 
@@ -181,3 +181,8 @@ $ yarn dev
 
 $ yarn build
 ```
+
+## Changelog 
+
+
+[See the changelog here](CHANGELOG.md)
