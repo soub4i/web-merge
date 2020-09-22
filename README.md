@@ -15,7 +15,7 @@ Declarative client-side web fragments (apps/files) merger using web component AP
 
 ## Installation
 
-## 1. via npm (not working for now)
+## 1. via npm  (Recommended)
 
 ```shell
 $ npm install @soubai/web-merge
@@ -32,7 +32,7 @@ Then import it in your script
 import '@soubai/web-merge'
 ```
 
-## 2. via unpkg (Recommended)
+## 2. via unpkg
 
 ```html
 <script type="module" src="//unpkg.com/@soubai/web-merge"></script>
