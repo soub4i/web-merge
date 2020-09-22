@@ -1,9 +1,11 @@
 # Web Merge
 
-![](assets/banner.png)
-
+[![Build Status](https://travis-ci.org/AbderrahimSoubaiElidrissi/web-merge.svg?branch=master)](https://travis-ci.org/AbderrahimSoubaiElidrissi/web-merge)
 
 Declarative client-side web fragments (apps/files) merger using web component APIs
+
+![](assets/banner.png)
+
 
 ## NOTE
 > EXPERIMENTAL DO NOT USE IN PRODUCTION
