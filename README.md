@@ -4,14 +4,14 @@
 
 Declarative client-side web fragments (apps/files) merger using web component APIs
 
-![](assets/banner.png)
+![Logo](https://www.linkpicture.com/q/banner_6.png)
 
 
 ## NOTE
 > EXPERIMENTAL DO NOT USE IN PRODUCTION
 
 
-![](assets/preview.png)
+![](https://www.linkpicture.com/q/preview_4.png)
 
 
 
@@ -118,7 +118,7 @@ document.getElementById("dec").addEventListener("click", function () {
 ```
 
 
-![](assets/preview--2.gif)
+![](https://www.linkpicture.com/q/preview-2.gif)
 
 ### 2.Routing
 
@@ -164,7 +164,7 @@ const { router } = parent;
 ```
 
 
-![](assets/preview-3.gif)
+![](https://www.linkpicture.com/q/preview-3.gif)
 
 
 
