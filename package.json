@@ -1,6 +1,6 @@
 {
   "name": "@soubai/web-merge",
-  "version": "1.2.7",
+  "version": "1.2.8",
   "description": "Declarative custom element for micro-frontend architecture",
   "main": "dist/main.js",
   "module": "dist/main.js",
