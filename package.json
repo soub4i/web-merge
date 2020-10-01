@@ -27,6 +27,8 @@
     "babel-loader": "^8.1.0",
     "clean-webpack-plugin": "^3.0.0",
     "generate-changelog": "^1.8.0",
+    "prettier": "^2.1.2",
+    "prettier-webpack-plugin": "^1.2.0",
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
@@ -35,6 +37,7 @@
     "dev": "webpack-dev-server",
     "build": "rm -rf ./dist && webpack",
     "test": "echo \"Error: no test specified\" && exit 0",
-    "changelog": "generate-changelog"
+    "changelog": "generate-changelog",
+    "pretty": "prettier --write 'lib/*.js'"
   }
 }
