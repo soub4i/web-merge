@@ -4,14 +4,11 @@
 
 Declarative client-side web fragments (apps/files) merger using web component APIs
 
-![Logo](https://www.linkpicture.com/q/banner_6.png)
 
 
 ## NOTE
 > EXPERIMENTAL DO NOT USE IN PRODUCTION
 
-
-![](https://www.linkpicture.com/q/preview_4.png)
 
 
 
